@@ -15,7 +15,7 @@ export default function Footer() {
             <span className="font-display font-bold tracking-widest text-white">VOLT</span>
             <span className="font-mono-custom text-xs" style={{ color: '#475569' }}>ELECTRONICS</span>
           </div>
-          <p className="font-mono-custom text-xs tracking-wider" style={{ color: '#475569' }}>© 2024 VOLT ELECTRONICS. ALL RIGHTS RESERVED.</p>
+          <p className="font-mono-custom text-xs tracking-wider" style={{ color: '#475569' }}>© 2026 VOLT ELECTRONICS. ALL RIGHTS RESERVED.</p>
           <div className="flex gap-6">
             {[['/','HOME'],['/products','SHOP'],['/cart','CART']].map(([href, label]) => (
               <Link key={href} to={href}
